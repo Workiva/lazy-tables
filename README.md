@@ -1,4 +1,4 @@
-# Lazy Tables
+# Lazy Tables [![Clojars Project](https://img.shields.io/clojars/v/com.workiva/lazy-tables.svg)](https://clojars.org/com.workiva/lazy-tables)
 
 A library for lazy relational algebra based on some [great work](https://dl.acm.org/citation.cfm?id=1706372) by Fritz Henglein
 
