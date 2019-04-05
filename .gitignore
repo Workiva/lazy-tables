@@ -14,3 +14,7 @@ pom.xml.asc
 .classpath
 .project
 .settings/
+/node_modules
+package-lock.json
+/_site
+Gemfile.lock
