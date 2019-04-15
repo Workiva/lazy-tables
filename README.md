@@ -1,15 +1,23 @@
 # Lazy Tables [![Clojars Project](https://img.shields.io/clojars/v/com.workiva/lazy-tables.svg)](https://clojars.org/com.workiva/lazy-tables) [![CircleCI](https://circleci.com/gh/Workiva/lazy-tables/tree/master.svg?style=svg)](https://circleci.com/gh/Workiva/lazy-tables/tree/master)
 
-A library for lazy relational algebra based on some [great work](https://dl.acm.org/citation.cfm?id=1706372) by Fritz Henglein
-
 <!-- toc -->
 
+- [Overview](#overview)
+- [API Documentation](#api-documentation)
 - [Usage](#usage)
 - [Maintainers and Contributors](#maintainers-and-contributors)
   * [Active Maintainers](#active-maintainers)
   * [Previous Contributors](#previous-contributors)
 
 <!-- tocstop -->
+
+## Overview
+
+A library for lazy relational algebra based on some [great work](https://dl.acm.org/citation.cfm?id=1706372) by Fritz Henglein
+
+## API Documentation
+
+[Clojure API documentation can be found here.](/documentation/clojure/index.html)
 
 ## Usage
 
