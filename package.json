@@ -1,0 +1,24 @@
+{
+  "name": "lazy-tables",
+  "version": "1.0.0",
+  "description": "A library for lazy relational algebra based on some [great work](https://dl.acm.org/citation.cfm?id=1706372) by Fritz Henglein",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Workiva/lazy-tables.git"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/Workiva/lazy-tables/issues"
+  },
+  "homepage": "https://github.com/Workiva/lazy-tables#readme",
+  "dependencies": {
+    "markdown-toc": "^1.2.0"
+  }
+}

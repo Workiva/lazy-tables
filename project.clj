@@ -17,9 +17,14 @@
   :source-paths      ["src"]
   :test-paths        ["test"]
 
-  :aliases {"docs" ["do" "clean-docs," "codox"]
+  :aliases {"docs" ["do" "clean-docs," "with-profile" "docs" "codox"]
             "clean-docs" ["shell" "rm" "-rf" "./documentation"]}
 
-  :codox {:output-path "documentation"}
+  :codox {:metadata {:doc/format :markdown}
+          :themes [:rdash]
+          :output-path "documentation"}
+
   :cljfmt {:indentation? false}
-  :repl-options {:init-ns lazy-tables.core})
+  :repl-options {:init-ns lazy-tables.core}
+
+  :profiles {:docs {:dependencies [[codox-theme-rdash "0.1.2"]]}})
