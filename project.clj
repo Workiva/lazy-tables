@@ -22,6 +22,13 @@
 
   :codox {:metadata {:doc/format :markdown}
           :themes [:rdash]
+          :html {:transforms [[:title]
+                              [:substitute [:title "Lazy-Tables API Docs"]]
+                              [:span.project-version]
+                              [:substitute nil]
+                              [:pre.deps]
+                              [:substitute [:a {:href "https://clojars.org/com.workiva/lazy-tables"}
+                                            [:img {:src "https://img.shields.io/clojars/v/com.workiva/lazy-tables.svg"}]]]]}
           :output-path "documentation"}
 
   :cljfmt {:indentation? false}

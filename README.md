@@ -1,6 +1,23 @@
-# Lazy Tables [![Clojars Project](https://img.shields.io/clojars/v/com.workiva/lazy-tables.svg)](https://clojars.org/com.workiva/lazy-tables)
+# Lazy Tables [![Clojars Project](https://img.shields.io/clojars/v/com.workiva/lazy-tables.svg)](https://clojars.org/com.workiva/lazy-tables) [![CircleCI](https://circleci.com/gh/Workiva/lazy-tables/tree/master.svg?style=svg)](https://circleci.com/gh/Workiva/lazy-tables/tree/master)
+
+<!-- toc -->
+
+- [Overview](#overview)
+- [API Documentation](#api-documentation)
+- [Usage](#usage)
+- [Maintainers and Contributors](#maintainers-and-contributors)
+  * [Active Maintainers](#active-maintainers)
+  * [Previous Contributors](#previous-contributors)
+
+<!-- tocstop -->
+
+## Overview
 
 A library for lazy relational algebra based on some [great work](https://dl.acm.org/citation.cfm?id=1706372) by Fritz Henglein
+
+## API Documentation
+
+[Clojure API documentation can be found here.](/documentation/clojure/index.html)
 
 ## Usage
 
@@ -19,7 +36,7 @@ The fundamental collection in the library is a 'table' which represents a loose 
 [2 4]
 
 ;; vacuous true predicate
-> @(select TT (table (range 5))) 
+> @(select TT (table (range 5)))
 [0 1 2 3 4]
 
 ;; vacuous false predicate
@@ -119,12 +136,12 @@ since we've defined our preducates in such a way that they can be decomposed and
 nil
 ```
 
-# Maintainers and Contributors
+## Maintainers and Contributors
 
-## Active Maintainers
+### Active Maintainers
 
   - Alex Alegre <alex.alegre@workiva.com>
 
-## Previous Contributors
+### Previous Contributors
 
   - Houston King <houston.king@workiva.com>
