@@ -199,4 +199,6 @@ workflows:
           # Therefore, releases MUST start with 'v'
           filters:
             tags:
-              only: /.*/
+              only: /^v.*/
+            branches:
+              ignore: /.*/
