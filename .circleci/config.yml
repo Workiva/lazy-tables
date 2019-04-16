@@ -194,10 +194,9 @@ workflows:
           context: Clojars
           requires:
             - build_jar
+            - verify_docker_build
           # Only run on tagged builds starting with 'v'
           # Therefore, releases MUST start with 'v'
           filters:
             tags:
-              only: /^v.*/
-            branches:
-              ignore: /.*/
+              only: /.*/
