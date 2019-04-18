@@ -1,4 +1,4 @@
-(defproject com.workiva/lazy-tables "0.1.1"
+(defproject com.workiva/lazy-tables "0.1.2"
   :description "A set of tools for lazy relational algebra"
   :url "https://github.com/Workiva/lazy-tables"
   :license {:name "Apache License, Version 2.0"}
